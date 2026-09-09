@@ -1,159 +1,67 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WEBlab1 - Кирилл Кретинин</title>
-<style>
-body {
-	background-color: #FDF5E6; 
-	color: #4A3018; 
-	margin: 0;
-	padding: 0;
-	line-height: 1.6;
-}
-header {
-        background-color: #E2725B; 
-        color: #FFF8F0;
-        padding: 25px;
-        text-align: center;
-}
-header h1 { margin: 0; font-size: 2em; }
-header p { margin: 5px 0 0; font-size: 1.2em; }
-        
-.container {
-	display: flex;
-        max-width: 1000px;
-        margin: 30px auto;
-        gap: 30px;
-        padding: 0 20px;
-}
-main {
-        flex: 3;
-}
-aside {
-        flex: 1;
-        background-color: #F5DEB3;
-        padding: 20px;
-        border-radius: 10px;
-}
-aside h3 {
-        margin-top: 0;
-        color: #8B4513;
-}
-footer {
-        background-color: #4A3018; 
-        color: #FDF5E6;
-        text-align: center;
-        padding: 15px;
-        margin-top: 30px;
-}
-        
-img {
-	width: 200px;           
-        height: 200px;          
-        object-fit: cover;      
-        object-position: center;
-        margin-bottom: 20px; 
-}
-section {
-        margin-bottom: 30px;
-}
-h2 {
-        color: #8B4513;
-}
-ul, ol {
-        padding-left: 20px;
-}
-li {
-        margin-bottom: 8px;
-}
-        
-form {
-        background-color: #FFF8F0;
-        padding: 20px;
-        border-radius: 10px;
-}
-label {
-        display: block;
-        margin-bottom: 5px;
-        font-weight: bold;
-        color: #8B4513;
-}
-input, textarea {
-	width: 100%;
-        padding: 10px;
-        margin-bottom: 15px;
-        border-radius: 5px;
-        background-color: #FFF8F0; /* Добавил фон, чтобы поля не сливались с формой */
-        box-sizing: border-box;
-        font-size: 1em;
-}
-textarea {
-        height: 100px;
-        resize: vertical;
-}
-button {
-        background-color: #E2725B;
-        color: white;
-        border: none;
-        padding: 12px 25px;
-        font-size: 1em;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background 0.3s;
-}
-button:hover {
-        background-color: #CC4E33;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кирилл Кретинин</title>
 </head>
-<body>
-<header>
-<h1>Кирилл Кретинин</h1> 
-<p>Кулинар и фуд-блогер</p>
-</header>
-<div class="container">
-<main>
-<img src="avatar.jpg" alt="Фотография шеф-повара" width="200" height="200">          
-<section>
-<h2>Навыки</h2>
-<ul>
-	<li>Умение готовить блинчики-невидимки</li>
-	<li>Могу профессионально вести фуд-блог в TikTok</li>
-	<li>Варить пельмени в чайнике</li>
-	<li>Дегустация и анализ вкусовых сочетаний</li>
-</ul>
-</section>
-<section>
-<h2>Проекты</h2>
-<ol>
-	<li>«Блинчики-невидимки»: пошаговый рецепт и секреты приготовления.</li>
-	<li>«Вселенская паста из доширака»: пошаговый рецепт.</li>
-	<li>«Пельмени в чайнике».</li>
-	<li>«Суп с яичком».</li>
-</ol>
-</section>
-<section>
-<h2>Связаться со мной:</h2>
-<form action="#" method="post">
-<label for="name">Имя:</label>
-<input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
-<label for="email">Email:</label>
-<input type="email" id="email" name="email" placeholder="Введите ваш email" required>
-<label for="message">Сообщение:</label>
-<textarea id="message" name="message" placeholder="Напишите ваше сообщение или предложение о сотрудничестве." required></textarea>
-<button type="submit">Отправить</button>
-</form>
-</section>
-</main>
-<aside>
-<h3>Любимый ингредиент </h3>
-<p>Яичко: с ним даже вчерашние макароны вкуснее.</p>
-</aside>
-</div>
-<footer>
-<p>&copy; 2026 Кретинин Кирилл.</p> 
-</footer>
+<body style="background-color: #FDF5E6; color: #4A3018; margin: 40px;">
+
+    <header>
+        <h1>Кирилл Кретинин</h1>
+        <p>Кулинар и фуд-блогер</p>
+    </header>
+
+    <div style="display: flex; gap: 20px;">
+        <main style="flex: 3;">
+            <img src="avatar.jpg" alt="Фото" width="200" height="200">
+
+            <section>
+                <h2>Навыки:</h2>
+                <ul>
+                    <li>Готовить блинчики-невидимки</li>
+                    <li>Вести фуд-блог в TikTok</li>
+                    <li>Варить пельмени в чайнике</li>
+                    <li>Дегустация блюд</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Рецепты, которые есть в моем блоге:</h2>
+                <ol>
+                    <li>Блинчики-невидимки</li>
+                    <li>Вселенская паста из доширака</li>
+                    <li>Пельмени в чайнике</li>
+                    <li>Суп с яичком</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Связаться со мной:</h2>
+                <form action="#" method="post">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" placeholder="Введите имя" required><br><br>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Введите email" required><br><br>
+                    
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" placeholder="Ваше сообщение" required></textarea><br><br>
+                    
+                    <button type="submit">Отправить</button>
+                </form>
+            </section>
+        </main>
+
+        <aside style="flex: 1; background-color: #F5DEB3; padding: 15px; height: fit-content;">
+            <h3>Любимый ингредиент</h3>
+            <p>Яичко: с ним даже вчерашние макароны вкуснее.</p>
+        </aside>
+    </div>
+    
+    <footer style="text-align: center; padding: 20px; margin-top: 30px; background-color: #E2725B;">
+        <p>&copy; 2026 Кретинин Кирилл.</p>
+    </footer>
+
 </body>
 </html>
