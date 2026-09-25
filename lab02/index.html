@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кирилл Кретинин, кулинар и фуд-блогер</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h2 {
+            font-size: 1.8rem;
+            line-height: 1.4;
+            position: static;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Кирилл Кретинин</h1>
+        <p>Кулинар и фуд-блогер</p>
+    </header>
+
+    <div class="container">
+        <main>
+            <img src="avatar.jpg" alt="Фото Шеф повара" class="avatar" style="object-fit: cover;">
+            <section>
+                <h2>Навыки:</h2>
+                <ul class="skills-list">
+                    <li>Готовить блинчики-невидимки</li>
+                    <li>Вести фуд-блог в TikTok</li>
+                    <li>Варить пельмени в чайнике</li>
+                    <li>Дегустация блюд</li>
+                </ul>
+            </section>
+            <section class="projects">
+                <h2>Рецепты в моем блоге (Проекты):</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <h3>Блинчики-невидимки</h3>
+                        <p>Секретный рецепт, который покорит ваше сердце и желудок.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Вселенская паста из доширака</h3>
+                        <p>Доширак, возведенный в абсолют кулинарного искусства. Быстро, сытно и гениально.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Пельмени в чайнике</h3>
+                        <p>Лайфхак для студентов. Идеальная варка без лишних кастрюль и грязной посуды.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Суп с яичком</h3>
+                        <p>Классика, которая согревает в любую погоду.</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>Связаться со мной:</h2>
+                <form action="#" method="post" class="contact-form">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" name="name" placeholder="Введите имя" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Введите email" required>
+                    
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" placeholder="Ваше сообщение" required></textarea>
+                    
+                    <button type="submit">Отправить</button>
+                </form>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <h3>Любимый ингредиент</h3>
+            <p>Яичко: с ним даже вчерашние макароны вкуснее.</p>
+        </aside>
+    </div>
+    
+    <footer>
+        <p>&copy; 2026 год.</p>
+    </footer>
+
+</body>
+</html>
